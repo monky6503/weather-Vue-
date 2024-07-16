@@ -124,7 +124,7 @@ import 'aos/dist/aos.css'
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2  xl:grid-cols-3 3xl:grid-cols-4 gap-10 py-5">
       <div v-for="(item,index) in areaWeather" :key="index" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="700">
-        <div class="card bg-gradient-to-bl from-[#C9D6FF] to-[#FFFFFF] w-[350px] shadow-xl justify-self-center">
+        <div class="card bg-gradient-to-bl from-[#C9D6FF] to-[#FFFFFF] w-[370px] shadow-xl justify-self-center">
           <h2 class="text-center text-2xl mt-5"><i
               class="fa-solid fa-map-location-dot"></i>&nbsp;&nbsp;<span>{{item.city}}</span>
           </h2>
