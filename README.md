@@ -33,3 +33,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Tool
+- Vue + Vite as a development framework.
+- TailWind:The CSS framework to use it.
+- Open weather data API.
